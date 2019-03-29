@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastra Produto</title>
+</head>
+<body>
+<h1>Cadastro de Produto</h1>
+
+<form method="post">
+
+	<label for="Nome">Nome</label>
+	<input type="text" name="nome" id="nome" placeholder="Nome do Produto">
+    
+
+    <label for="peso">Peso</label>
+    <input type="number" name="peso" id="peso" placeholder="Coloque o peso em (kg)">
+    <br>
+    <br>
+
+    <label for="Preço">Preço</label>
+    <input type="number" name="preço" id="Preço" placeholder="Valor do Produto">
+
+    <label for="estoque">Estoque Inicial</label>
+    <input type="number" name="estoque" value="10">
+    <br>
+    <br>
+    
+    <label>Tipo de mercado</label>
+    <input type="radio" id="interno" name="mercado" value="interno">
+    <label for="interno">Interno</label>
+    
+    <input type="radio" id="externo" name="externo" value="externo">
+    <label for="externo">Externo</label>
+    <br>
+    <br>
+
+    <label for="fornecedor">Fornecedor</label>
+    <select name="fornecedor">
+    	<option value="Fornecedor 1">Fornecedor 1</option>
+    	<option value="Fornecedor 2">Fornecedor 2</option>
+    	<option value="Fornecedor 3">Fornecedor 3</option>
+    	<option value="Fornecedor 4">Fornecedor 4</option>
+    </select>
+
+</form>
+</body>
+</html>
