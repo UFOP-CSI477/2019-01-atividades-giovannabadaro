@@ -1,0 +1,52 @@
+h1 {
+  font-family: arial;
+  color:#808080;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tbody tr:hover {
+  background-color: #c6c6c6;
+}
+thead tr:hover {
+  background-color: silver;
+}
+table {
+  width: 100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+ }
+
+tbody tr:hover {
+  background-color: #808080;
+}
+tr {
+  background-color: #a9a9a9;
+}
+td {
+  background-color: white;
+}
+
+th {
+  font-size: 14pt;
+  font-family: arial;
+  background-color: inherit;
+
+
+
+
+
+
+
+
+}

@@ -2,45 +2,39 @@
 <html>
 <head>
 	<title>Cadastra Produto</title>
-    <link rel="stylesheet" type="text/css" href="cadastra.css">
+    <meta charset="utf-8"/>
 </head>
 <body>
 <h1>Cadastro de Produto</h1>
 
 <form method="post">
 
-    <div class="part">
 	<label for="Nome">Nome</label>
 	<input type="text" name="nome" id="nome" placeholder="Nome do Produto">
-    </div>
+    
 
-    <div class="part">
     <label for="peso">Peso</label>
     <input type="number" name="peso" id="peso" placeholder="Coloque o peso em (kg)">
     <br>
     <br>
-    <div class="part">
+
     <label for="Preço">Preço</label>
     <input type="number" name="preço" id="Preço" placeholder="Valor do Produto">
-    </div>
 
-    <div class="part">
     <label for="estoque">Estoque Inicial</label>
     <input type="number" name="estoque" value="10">
-    </div>
     <br>
     <br>
-    <div class="part">
+    
     <label>Tipo de mercado</label>
-    <input type="radio" id="interno" name="mercado" value="interno">
+    <input type="radio" id="interno" name="tipo-mercado" value="interno">
     <label for="interno">Interno</label>
     
-    <input type="radio" id="externo" name="externo" value="externo">
+    <input type="radio" id="externo" name="tipo-mercado" value="externo">
     <label for="externo">Externo</label>
-    </div>
     <br>
     <br>
-     <div class="part">
+
     <label for="fornecedor">Fornecedor</label>
     <select name="fornecedor">
     	<option value="Fornecedor 1">Fornecedor 1</option>
@@ -48,7 +42,6 @@
     	<option value="Fornecedor 3">Fornecedor 3</option>
     	<option value="Fornecedor 4">Fornecedor 4</option>
     </select>
-    </div>
 
 </form>
 </body>
