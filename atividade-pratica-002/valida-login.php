@@ -23,13 +23,13 @@ if(sha1($password) == $login->password){
 		exit;
 	} else {
 		switch ($_SESSION['tipo']) {
-			case 0:
-			echo "Redireciona para a home do administrador";
-		            header("Location: adm_cadastra.php");
-			break;
 			case 1:
+			echo "Redireciona para a home do administrador";
+		            header("Location: adm_menu.php");
+			break;
+			case 2:
 			echo "Redireciona para a home do usuario";
-		            header("Location: ../../Usuario/index.php");
+		            header("Location: paciente_menu");
 			break;
 		}
 	}
